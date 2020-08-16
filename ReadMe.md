@@ -28,3 +28,4 @@ BellIntegratorTestTask.Core - Net Standart 2.0
 Основной проект на Core 3.1
 
 5) Все сервисы подключяются в App - файле в Unity Service Locator 
+6) Сортировка по колонкам осуществляется по клику на названиию (Header) колонки
