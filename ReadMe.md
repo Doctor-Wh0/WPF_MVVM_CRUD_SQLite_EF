@@ -6,7 +6,7 @@
 Для этого нужно сделать config и там прописать путь, но я оставил в виде переменной строки. Путь к базе можно установить самостоятельно.
 переменная pathToDb в файле EntitiesDBContext.cs в проекте DAL.
 
-2.1)Если понадобится сделать что-то заново с БД. Создать файл БД заново:
+2,1)Если понадобится сделать что-то заново с БД. Создать файл БД заново:
 Необходимо установить проект DAL в качестве запускаемого проекта. Нажать на проект -> свойства -> Назначить в качестве запускаемого проекта.
 Далее
 В меню Visual (там где Вид, Правка)
@@ -23,8 +23,7 @@ Update-Database
 Подробнее можно прочитать статью: https://docs.microsoft.com/ru-ru/ef/core/get-started/?tabs=visual-studio
 
 
-3)
-Проект BellIntegratorTestTask.DAL реализовано в качестве библиотеки Net Standart 2.0
+3)Проект BellIntegratorTestTask.DAL реализовано в качестве библиотеки Net Standart 2.0
 BellIntegratorTestTask.LogService - Net Standart 2.0
 BellIntegratorTestTask.Core - Net Standart 2.0
 Основной проект на Core 3.1
