@@ -1,0 +1,10 @@
+C:\Users\gorde\source\repos\BellIntegratorTestTask\BellIntegratorTestTask.LogService\bin\Debug\netstandard2.0\NLog.config
+C:\Users\gorde\source\repos\BellIntegratorTestTask\BellIntegratorTestTask.LogService\bin\Debug\netstandard2.0\BellIntegratorTestTask.LogService.deps.json
+C:\Users\gorde\source\repos\BellIntegratorTestTask\BellIntegratorTestTask.LogService\bin\Debug\netstandard2.0\BellIntegratorTestTask.LogService.dll
+C:\Users\gorde\source\repos\BellIntegratorTestTask\BellIntegratorTestTask.LogService\bin\Debug\netstandard2.0\BellIntegratorTestTask.LogService.pdb
+C:\Users\gorde\source\repos\BellIntegratorTestTask\BellIntegratorTestTask.LogService\obj\Debug\netstandard2.0\BellIntegratorTestTask.LogService.csproj.CoreCompileInputs.cache
+C:\Users\gorde\source\repos\BellIntegratorTestTask\BellIntegratorTestTask.LogService\obj\Debug\netstandard2.0\BellIntegratorTestTask.LogService.AssemblyInfoInputs.cache
+C:\Users\gorde\source\repos\BellIntegratorTestTask\BellIntegratorTestTask.LogService\obj\Debug\netstandard2.0\BellIntegratorTestTask.LogService.AssemblyInfo.cs
+C:\Users\gorde\source\repos\BellIntegratorTestTask\BellIntegratorTestTask.LogService\obj\Debug\netstandard2.0\BellIntegratorTestTask.LogService.dll
+C:\Users\gorde\source\repos\BellIntegratorTestTask\BellIntegratorTestTask.LogService\obj\Debug\netstandard2.0\BellIntegratorTestTask.LogService.pdb
+C:\Users\gorde\source\repos\BellIntegratorTestTask\BellIntegratorTestTask.LogService\obj\Debug\netstandard2.0\BellIntegratorTestTask.LogService.csprojAssemblyReference.cache

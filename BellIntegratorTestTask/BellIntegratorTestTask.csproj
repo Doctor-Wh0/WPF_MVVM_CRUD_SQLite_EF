@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommonServiceLocator" Version="2.0.5" />
+    <PackageReference Include="Unity" Version="5.11.7" />
+    <PackageReference Include="Unity.ServiceLocation" Version="5.11.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BellIntegratorTestTask.Core\BellIntegratorTestTask.Core.csproj" />
+    <ProjectReference Include="..\BellIntegratorTestTask.DAL\BellIntegratorTestTask.DAL.csproj" />
+    <ProjectReference Include="..\BellIntegratorTestTask.LogService\BellIntegratorTestTask.LogService.csproj" />
+  </ItemGroup>
+
+</Project>

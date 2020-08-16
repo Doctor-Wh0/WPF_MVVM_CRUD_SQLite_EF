@@ -1,0 +1,155 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\gorde\\source\\repos\\BellIntegratorTestTask\\BellIntegratorTestTask.DAL\\BellIntegratorTestTask.DAL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\gorde\\source\\repos\\BellIntegratorTestTask\\BellIntegratorTestTask.Core\\BellIntegratorTestTask.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gorde\\source\\repos\\BellIntegratorTestTask\\BellIntegratorTestTask.Core\\BellIntegratorTestTask.Core.csproj",
+        "projectName": "BellIntegratorTestTask.Core",
+        "projectPath": "C:\\Users\\gorde\\source\\repos\\BellIntegratorTestTask\\BellIntegratorTestTask.Core\\BellIntegratorTestTask.Core.csproj",
+        "packagesPath": "C:\\Users\\gorde\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gorde\\source\\repos\\BellIntegratorTestTask\\BellIntegratorTestTask.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gorde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gorde\\source\\repos\\BellIntegratorTestTask\\BellIntegratorTestTask.DAL\\BellIntegratorTestTask.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gorde\\source\\repos\\BellIntegratorTestTask\\BellIntegratorTestTask.DAL\\BellIntegratorTestTask.DAL.csproj",
+        "projectName": "BellIntegratorTestTask.DAL",
+        "projectPath": "C:\\Users\\gorde\\source\\repos\\BellIntegratorTestTask\\BellIntegratorTestTask.DAL\\BellIntegratorTestTask.DAL.csproj",
+        "packagesPath": "C:\\Users\\gorde\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gorde\\source\\repos\\BellIntegratorTestTask\\BellIntegratorTestTask.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gorde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\gorde\\source\\repos\\BellIntegratorTestTask\\BellIntegratorTestTask.Core\\BellIntegratorTestTask.Core.csproj": {
+                "projectPath": "C:\\Users\\gorde\\source\\repos\\BellIntegratorTestTask\\BellIntegratorTestTask.Core\\BellIntegratorTestTask.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

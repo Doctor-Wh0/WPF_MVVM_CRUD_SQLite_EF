@@ -1,0 +1,33 @@
+﻿<Window x:Class="BellIntegratorTestTask.Views.ProductInsertUpdateView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BellIntegratorTestTask.Views"
+             mc:Ignorable="d" 
+             x:Name="ProductInsertUpdateWindow"
+             SizeToContent="WidthAndHeight">
+    <Grid Height="380" Width="360">
+        <TextBox x:Name="fName" HorizontalAlignment="Left" Margin="37,46,0,0" Text="{Binding Name}" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
+        <TextBox x:Name="fDescription" HorizontalAlignment="Left" Height="60" Margin="37,271,0,0" Text="{Binding Description}" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="fPrice" HorizontalAlignment="Left" Margin="37,81,0,0" Text="{Binding Price, TargetNullValue=''}" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="fManufacturer" HorizontalAlignment="Left" Margin="37,120,0,0" Text="{Binding Manufacturer}" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="fArticul" HorizontalAlignment="Left" Margin="37,154,0,0" Text="{Binding Articul}" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="fQuantity" HorizontalAlignment="Left" Margin="37,190,0,0" Text="{Binding Quantity, TargetNullValue=''}" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="fUnity" HorizontalAlignment="Left" Margin="37,228,0,0" Text="{Binding Unity}" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Название" HorizontalAlignment="Left" Margin="220,40,0,0" VerticalAlignment="Top" Width="108" Height="29"/>
+        <Label Content="Описание" HorizontalAlignment="Left" Margin="220,266,0,0" VerticalAlignment="Top" Width="107" Height="28"/>
+        <Label Content="Цена" HorizontalAlignment="Left" Margin="220,74,0,0" VerticalAlignment="Top" Width="107" Height="31"/>
+        <Label Content="Производитель" HorizontalAlignment="Left" Margin="220,113,0,0" VerticalAlignment="Top" Width="107" Height="32"/>
+        <Label Content="Артикул" HorizontalAlignment="Left" Margin="220,148,0,0" VerticalAlignment="Top" Width="107" Height="30"/>
+        <Label Content="Количество" HorizontalAlignment="Left" Margin="220,181,0,0" VerticalAlignment="Top" Width="107" Height="31"/>
+        <Label Content="Единица изм." HorizontalAlignment="Left" Margin="220,223,0,0" VerticalAlignment="Top" Width="107" Height="27"/>
+        <Button Content="Изменить/Внести" HorizontalAlignment="Left" Margin="114,338,0,0" VerticalAlignment="Top" Width="107"
+                Command="{Binding UpdateCommand}" CommandParameter="{Binding ElementName=ProductInsertUpdateWindow}"
+                />
+        <Button Content="Отмена" HorizontalAlignment="Left" Margin="238,338,0,0" VerticalAlignment="Top" Width="72"
+                Command="{Binding CancelCommand}" CommandParameter="{Binding ElementName=ProductInsertUpdateWindow}"/>
+        <Label Content="{Binding WarningLabel}" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="340" Height="25"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,9 @@
+C:\Users\gorde\source\repos\BellIntegratorTestTask\BellIntegratorTestTask.Core\bin\Debug\netstandard2.0\BellIntegratorTestTask.Core.deps.json
+C:\Users\gorde\source\repos\BellIntegratorTestTask\BellIntegratorTestTask.Core\bin\Debug\netstandard2.0\BellIntegratorTestTask.Core.dll
+C:\Users\gorde\source\repos\BellIntegratorTestTask\BellIntegratorTestTask.Core\bin\Debug\netstandard2.0\BellIntegratorTestTask.Core.pdb
+C:\Users\gorde\source\repos\BellIntegratorTestTask\BellIntegratorTestTask.Core\obj\Debug\netstandard2.0\BellIntegratorTestTask.Core.csprojAssemblyReference.cache
+C:\Users\gorde\source\repos\BellIntegratorTestTask\BellIntegratorTestTask.Core\obj\Debug\netstandard2.0\BellIntegratorTestTask.Core.csproj.CoreCompileInputs.cache
+C:\Users\gorde\source\repos\BellIntegratorTestTask\BellIntegratorTestTask.Core\obj\Debug\netstandard2.0\BellIntegratorTestTask.Core.AssemblyInfoInputs.cache
+C:\Users\gorde\source\repos\BellIntegratorTestTask\BellIntegratorTestTask.Core\obj\Debug\netstandard2.0\BellIntegratorTestTask.Core.AssemblyInfo.cs
+C:\Users\gorde\source\repos\BellIntegratorTestTask\BellIntegratorTestTask.Core\obj\Debug\netstandard2.0\BellIntegratorTestTask.Core.dll
+C:\Users\gorde\source\repos\BellIntegratorTestTask\BellIntegratorTestTask.Core\obj\Debug\netstandard2.0\BellIntegratorTestTask.Core.pdb
